@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.reflections:reflections:0.9.11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.11/reflections-0.9.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

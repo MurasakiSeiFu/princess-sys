@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: io.springfox:springfox-schema:2.7.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-schema/2.7.0/springfox-schema-2.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

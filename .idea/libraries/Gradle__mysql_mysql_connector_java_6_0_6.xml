@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: mysql:mysql-connector-java:6.0.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
