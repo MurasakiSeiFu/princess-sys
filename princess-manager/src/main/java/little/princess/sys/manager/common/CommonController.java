@@ -1,4 +1,4 @@
-package little.princess.sys.manager.config;
+package little.princess.sys.manager.common;
 
 import javassist.NotFoundException;
 import little.princess.sys.manager.core.dto.LoginUserToken;
@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * @author: murasakiseifu
  * @date: 2018/12/21 2:31 PM}
  * @version: V1.0
- * @review: murasakiseifu/2018/12/21 2:31 PM}
+ * @review: murasakiseifu/2018/12/21 2:31 PM
  */
 public class CommonController {
 

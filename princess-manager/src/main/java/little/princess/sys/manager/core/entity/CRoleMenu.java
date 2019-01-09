@@ -1,12 +1,12 @@
 package little.princess.sys.manager.core.entity;
 
 /**
- * 实体Entity
+ * 角色菜单关联表 实体Entity
  *
- * @author: murasakiseifu
+ * @author: MurasakiSeiFu
  * @date: 2018/8/15 下午2:50}
  * @version: V1.0
- * @review: murasakiseifu/2018/8/15 下午2:50}
+ * @review: MurasakiSeiFu/2018/8/15 下午2:50}
  */
 public class CRoleMenu implements java.io.Serializable {
 

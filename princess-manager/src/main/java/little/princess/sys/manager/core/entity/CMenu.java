@@ -6,20 +6,12 @@ import java.util.List;
 /**
  * 菜单目录表 实体Entity
  *
- * @author: murasakiseifu
+ * @author: MurasakiSeiFu
  * @date: 2018/8/15 下午2:49}
  * @version: V1.0
- * @review: murasakiseifu/2018/8/15 下午2:49}
+ * @review: MurasakiSeiFu/2018/8/15 下午2:49}
  */
 public class CMenu implements java.io.Serializable {
-
-    public CMenu() {
-
-    }
-
-    public CMenu(Integer isleaf) {
-        this.isleaf = isleaf;
-    }
 
     private static final long serialVersionUID = 1L;
 

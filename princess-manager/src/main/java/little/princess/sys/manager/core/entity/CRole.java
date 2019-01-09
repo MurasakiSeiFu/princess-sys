@@ -3,10 +3,10 @@ package little.princess.sys.manager.core.entity;
 /**
  * 角色表 实体Entity
  *
- * @author: murasakiseifu
+ * @author: MurasakiSeiFu
  * @date: 2018/8/15 上午11:04}
  * @version: V1.0
- * @review: murasakiseifu/2018/8/15 上午11:04}
+ * @review: MurasakiSeiFu/2018/8/15 上午11:04}
  */
 public class CRole implements java.io.Serializable {
 
