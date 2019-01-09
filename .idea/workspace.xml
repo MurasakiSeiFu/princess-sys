@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d238d1-d245-4d4c-8e16-f3623639a9c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/BaseParamEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CUserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/CUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/impl/CUserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CUserMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/config/CommonController.java" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/CommonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CMenu.java" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CRole.java" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CRoleMenu.java" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CRoleMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CUser.java" afterPath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CUser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/princess-manager/out/production/classes/little/princess/sys/manager/config/CommonController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties" afterPath="$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,107 +50,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/controller/LoginController.java">
+      <file leaf-file-name="application-test.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+            <state relative-caret-position="45">
+              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebToeknContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/tl/WebToeknContext.java">
+      <file leaf-file-name="ManagerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="e#382#390#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcConfigAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/mvc/WebMvcConfigAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-              <folding>
-                <marker date="1547025678710" expanded="true" signature="998:1478" ph="insert into c_user... " />
-                <marker date="1547025678710" expanded="true" signature="1624:1768" ph="SELECT id, l... CUser" />
-                <marker date="1547025678710" expanded="true" signature="1910:2001" ph="SELECT id, l... CUser" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XTokenInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/mvc/XTokenInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CUserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/impl/CUserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/CommonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginUserToken.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/dto/LoginUserToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -719,7 +621,6 @@
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/token/IgnoreToken.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/CORSFilter.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/Swagger2Config.java" />
-        <option value="$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CUser.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/dto/LoginUserToken.java" />
@@ -734,6 +635,7 @@
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/config/CommonController.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/CommonController.java" />
+        <option value="$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties" />
       </list>
     </option>
   </component>
@@ -896,6 +798,14 @@
               <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -1034,27 +944,28 @@
       <workItem from="1545379735803" duration="7405000" />
       <workItem from="1545891128360" duration="667000" />
       <workItem from="1547005236055" duration="3163000" />
-      <workItem from="1547020664218" duration="4709000" />
+      <workItem from="1547020664218" duration="5001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21731000" />
+    <option name="totallyTimeSpent" value="22023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58137155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7676561" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5025588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5035824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30402932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30402932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1066,7 +977,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1357,22 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="173" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="173" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1439,14 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/mvc/WebMvcConfigAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1505,14 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/BaseParamEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/tl/WebToeknContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1543,10 +1421,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/BaseParamEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/dto/LoginUserToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="570">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/mvc/WebMvcConfigAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
           <folding />
         </state>
       </provider>

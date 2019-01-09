@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="little.princess.sys.manager.core.mapper.CUserMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="little.princess.sys.manager.core.entity.CUser">
+        <result column="id" property="id" />
+        <result column="loginname" property="loginname" />
+        <result column="loginpw" property="loginpw" />
+        <result column="nickname" property="nickname" />
+        <result column="realname" property="realname" />
+        <result column="email" property="email" />
+        <result column="mobile" property="mobile" />
+        <result column="birth_date" property="birthDate" />
+        <result column="role_code" property="roleCode" />
+        <result column="state" property="state" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+    <!-- 注册 -->
+    <insert id="register">
+        insert into c_user(
+                loginname,
+                loginpw,
+                nickname,
+                realname,
+                email,
+                mobile,
+                birth_date,
+                role_code
+        ) values (
+                #{loginname},
+                #{loginpw},
+                #{nickname},
+                #{realname},
+                #{email},
+                #{mobile},
+                #{birthDate},
+                #{roleCode}
+        )
+    </insert>
+
+    <!-- 根据账号和密码查询用户 -->
+    <select id="findByNameAndPasswd" resultType="little.princess.sys.manager.core.entity.CUser">
+        SELECT id, loginname, loginpw, role_code AS roleCode from CUser
+        WHERE loginname = #{loginName} and loginpw = #{passwd} and state &gt;= 0
+    </select>
+
+    <!-- 根据UserId获取用户信息 -->
+    <select id="findByUserId" resultType="little.princess.sys.manager.core.entity.CUser">
+        SELECT id, loginname, nickname, realname, role_code from CUser
+        WHERE id = #{userId}
+    </select>
+</mapper>
