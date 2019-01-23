@@ -33,7 +33,7 @@ import static little.princess.sys.manager.web.message.ResponseMessage.ok;
  */
 @RestController
 @Api(description = "登录管理")
-@RequestMapping("/north")
+@RequestMapping("/princess")
 public class LoginController {
 
     private Logger logger = LoggerFactory.getLogger(LoginController.class);
