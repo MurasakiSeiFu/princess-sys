@@ -36,5 +36,5 @@ public interface CUserMapper {
      * @param cUser
      * @return
      */
-    Integer register(@Param("cUser") CUser cUser);
+    Integer register(CUser cUser);
 }

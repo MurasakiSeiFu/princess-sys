@@ -89,7 +89,6 @@ public class LoginController {
         map.put("userId", loginUserToken.getUserId());
         map.put("loginName", loginUserToken.getLoginName());
         map.put("nickName", cUser.getNickname());
-        map.put("realName", cUser.getRealname());
         map.put("roleCode", loginUserToken.getRoleCode());
         return ok(map);
     }

@@ -7,10 +7,7 @@
         <result column="loginname" property="loginname" />
         <result column="loginpw" property="loginpw" />
         <result column="nickname" property="nickname" />
-        <result column="realname" property="realname" />
         <result column="email" property="email" />
-        <result column="mobile" property="mobile" />
-        <result column="birth_date" property="birthDate" />
         <result column="role_code" property="roleCode" />
         <result column="state" property="state" />
         <result column="remark" property="remark" />
@@ -22,32 +19,26 @@
                 loginname,
                 loginpw,
                 nickname,
-                realname,
                 email,
-                mobile,
-                birth_date,
                 role_code
         ) values (
                 #{loginname},
                 #{loginpw},
                 #{nickname},
-                #{realname},
                 #{email},
-                #{mobile},
-                #{birthDate},
                 #{roleCode}
         )
     </insert>
 
     <!-- 根据账号和密码查询用户 -->
     <select id="findByNameAndPasswd" resultType="little.princess.sys.manager.core.entity.CUser">
-        SELECT id, loginname, loginpw, role_code AS roleCode from CUser
+        SELECT id, loginname, loginpw, role_code AS roleCode from c_user
         WHERE loginname = #{loginName} and loginpw = #{passwd} and state &gt;= 0
     </select>
 
     <!-- 根据UserId获取用户信息 -->
     <select id="findByUserId" resultType="little.princess.sys.manager.core.entity.CUser">
-        SELECT id, loginname, nickname, realname, role_code from CUser
+        SELECT id, loginname, nickname, role_code from c_user
         WHERE id = #{userId}
     </select>
 </mapper>

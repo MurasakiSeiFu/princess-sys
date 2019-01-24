@@ -26,17 +26,8 @@ public class CUser implements java.io.Serializable {
     /**昵称.*/
     private String nickname;
 
-    /**真实姓名.*/
-    private String realname;
-
     /**邮箱.*/
     private String email;
-
-    /**手机号.*/
-    private String mobile;
-
-    /**生日.*/
-    private Date birthDate;
 
     /**角色id.*/
     private String roleCode;
@@ -79,36 +70,12 @@ public class CUser implements java.io.Serializable {
         this.nickname = nickname;
     }
 
-    public String getRealname() {
-        return realname;
-    }
-
-    public void setRealname(String realname) {
-        this.realname = realname;
-    }
-
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
-    }
-
-    public Date getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
     }
 
     public String getRoleCode() {
@@ -142,10 +109,7 @@ public class CUser implements java.io.Serializable {
                 ", loginname='" + loginname + '\'' +
                 ", loginpw='" + loginpw + '\'' +
                 ", nickname='" + nickname + '\'' +
-                ", realname='" + realname + '\'' +
                 ", email='" + email + '\'' +
-                ", mobile='" + mobile + '\'' +
-                ", birthDate=" + birthDate +
                 ", roleCode='" + roleCode + '\'' +
                 ", state=" + state +
                 ", remark='" + remark + '\'' +

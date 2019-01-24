@@ -32,18 +32,18 @@ public class WebMvcConfigAdapter extends WebMvcConfigurationSupport {
     /**
      * LOGIN_URL_PATTERNS
      */
-    public static final String LOGIN_URL_PATTERNS = "/oss/login,/oss/register,/oss/cuser/findByNameOrEmail,/oss/keeper/**";
+    public static final String LOGIN_URL_PATTERNS = "/princess/login,/princess/register";
 
     @Autowired
     private XTokenInterceptor xtokenInterceptor;
 
     //进一步配置已注册的拦截器，添加它应该应用的URL模式。
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(xtokenInterceptor).addPathPatterns("/**")
-                .excludePathPatterns(SWAGER_URL_PATTERNS.split(","))
-                .excludePathPatterns(LOGIN_URL_PATTERNS.split(","));
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(xtokenInterceptor).addPathPatterns("/**")
+//                .excludePathPatterns(SWAGER_URL_PATTERNS.split(","))
+//                .excludePathPatterns(LOGIN_URL_PATTERNS.split(","));
+//    }
 
     //添加用于提供静态资源的资源处理程序。
     @Override
