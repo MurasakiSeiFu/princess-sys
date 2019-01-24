@@ -1,4 +1,10 @@
 rootProject.name = 'princess-sys'
 // 后台管理模块
 include 'princess-manager'
+include 'princess-common'
+include 'princess-config'
+include 'princess-core'
+include 'princess-clientsys'
+include 'princess-community'
+include 'princess-bloghome'
 

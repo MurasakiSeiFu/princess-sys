@@ -10,6 +10,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/princess-bloghome" />
+            <option value="$PROJECT_DIR$/princess-clientsys" />
+            <option value="$PROJECT_DIR$/princess-common" />
+            <option value="$PROJECT_DIR$/princess-community" />
+            <option value="$PROJECT_DIR$/princess-config" />
+            <option value="$PROJECT_DIR$/princess-core" />
             <option value="$PROJECT_DIR$/princess-manager" />
           </set>
         </option>

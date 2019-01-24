@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-bloghome.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-bloghome.iml" group="princess-bloghome" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-bloghome/princess-bloghome_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-bloghome/princess-bloghome_main.iml" group="princess-bloghome" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-bloghome/princess-bloghome_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-bloghome/princess-bloghome_test.iml" group="princess-bloghome" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-clientsys.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-clientsys.iml" group="princess-clientsys" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-clientsys/princess-clientsys_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-clientsys/princess-clientsys_main.iml" group="princess-clientsys" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-clientsys/princess-clientsys_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-clientsys/princess-clientsys_test.iml" group="princess-clientsys" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-common.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-common.iml" group="princess-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-common/princess-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-common/princess-common_main.iml" group="princess-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-common/princess-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-common/princess-common_test.iml" group="princess-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-community.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-community.iml" group="princess-community" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-community/princess-community_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-community/princess-community_main.iml" group="princess-community" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-community/princess-community_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-community/princess-community_test.iml" group="princess-community" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-config.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-config.iml" group="princess-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-config/princess-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-config/princess-config_main.iml" group="princess-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-config/princess-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-config/princess-config_test.iml" group="princess-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-core.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-core.iml" group="princess-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-core/princess-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-core/princess-core_main.iml" group="princess-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-core/princess-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-core/princess-core_test.iml" group="princess-core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager.iml" group="princess-manager" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_main.iml" group="princess-manager" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_test.iml" group="princess-manager" />

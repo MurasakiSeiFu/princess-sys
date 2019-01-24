@@ -5,6 +5,20 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="little.princess.sys_main" target="1.8" />
+      <module name="little.princess.sys_test" target="1.8" />
+      <module name="princess-bloghome_main" target="1.8" />
+      <module name="princess-bloghome_test" target="1.8" />
+      <module name="princess-clientsys_main" target="1.8" />
+      <module name="princess-clientsys_test" target="1.8" />
+      <module name="princess-common_main" target="1.8" />
+      <module name="princess-common_test" target="1.8" />
+      <module name="princess-community_main" target="1.8" />
+      <module name="princess-community_test" target="1.8" />
+      <module name="princess-config_main" target="1.8" />
+      <module name="princess-config_test" target="1.8" />
+      <module name="princess-core_main" target="1.8" />
+      <module name="princess-core_test" target="1.8" />
       <module name="princess-manager_main" target="1.8" />
       <module name="princess-manager_test" target="1.8" />
     </bytecodeTargetLevel>
