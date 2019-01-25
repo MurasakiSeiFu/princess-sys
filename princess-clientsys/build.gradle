@@ -1,14 +1,16 @@
 group 'little.princess.sys'
-version '1.0'
 
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
+apply plugin: 'application'
+archivesBaseName = 'princess-manager'
+mainClassName = 'little.princess.sys.clientsys.ClientSysApplication'
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(':princess-core')
+    //swagger
+    compile "org.springframework.boot:spring-boot-starter-web:${springVersion}"
+    compile "io.springfox:springfox-swagger2:${swaggerVersion}"
+    compile "io.springfox:springfox-swagger-ui:${swaggerVersion}"
+    //监控接口
+    testCompile "org.springframework.boot:spring-boot-starter-actuator:${springVersion}"
+    testCompile "org.springframework.boot:spring-boot-starter-test:${springVersion}"
 }

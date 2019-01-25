@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="30 seconds">
+	<!--继承spring boot的日志风格-->
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+	<jmxConfigurator/>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>|%d{yyyy-MM-dd HH:mm:ss.SSS}|%-5level-[%msg]-[%logger{36}]-[%thread]%n</pattern>
+		</layout>
+	</appender>
+	<appender name="server"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/%d{yyyyMMdd}/server.log.%i</fileNamePattern>
+			<MaxHistory>100</MaxHistory>
+			<TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<MaxFileSize>100MB</MaxFileSize>
+			</TimeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<pattern>|%d{yyyy-MM-dd HH:mm:ss.SSS}|%-5level-[%msg]-[%logger{36}]-[%thread]%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="error"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>ERROR</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/%d{yyyyMMdd}/error.log.%i</fileNamePattern>
+			<MaxHistory>30</MaxHistory>
+			<TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<MaxFileSize>50MB</MaxFileSize>
+			</TimeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<pattern>|%d{yyyy-MM-dd HH:mm:ss.SSS}|%-5level-[%msg]-[%logger{36}]-[%thread]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件 -->
+	<appender name="keydata" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!-- 定义滚动策略 -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 定义log位置 -->
+			<fileNamePattern>logs/keydata/%d{yyyyMMdd}/keydata.log.%i</fileNamePattern>
+			<!-- 存在30天 -->
+			<MaxHistory>30</MaxHistory>
+				<TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+					<!-- 文件大小 -->
+					<MaxFileSize>100MB</MaxFileSize>
+				</TimeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<!-- 设置日志输入格式 -->
+		<encoder>
+			<pattern>|%d{yyyy-MM-dd HH:mm:ss.SSS}|%-5level-[%msg]-[%logger{36}]-[%thread]%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<!-- mapper-->
+	<logger name="cn.vbill.middleware.oss.keeper.core.mapper" level="DEBUG"/>
+	<!--&lt;!&ndash; keydata &ndash;&gt;-->
+	<!--<logger name="cn.vbill.middleware.oss.keeper.core.init.KeyDataUtils" level="info">-->
+		<!--<appender-ref ref="keydata"/>-->
+	<!--</logger>-->
+	
+	<logger name="org.apache.ibatis" level="info" additivity="false">
+		<appender-ref ref="STDOUT" /> 
+		<appender-ref ref="server" />
+		<appender-ref ref="error" />
+	</logger>
+	<logger name="cn.vbill.middleware.oss" level="info" additivity="false">
+		<appender-ref ref="STDOUT" /> 
+		<appender-ref ref="server" />
+		<appender-ref ref="error" />
+	</logger>
+	<root level="info">
+		 <appender-ref ref="STDOUT" /> 
+		 <appender-ref ref="error" />
+	</root>
+</configuration>
