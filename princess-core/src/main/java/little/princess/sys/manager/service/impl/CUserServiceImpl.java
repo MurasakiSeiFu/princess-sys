@@ -1,6 +1,6 @@
 package little.princess.sys.manager.service.impl;
 
-import little.princess.sys.manager.common.BaseParamEntity;
+import little.princess.sys.common.all.BaseParamEntity;
 import little.princess.sys.manager.core.entity.CUser;
 import little.princess.sys.manager.core.mapper.CUserMapper;
 import little.princess.sys.manager.service.CUserService;

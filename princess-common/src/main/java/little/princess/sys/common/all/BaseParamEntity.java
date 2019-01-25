@@ -1,4 +1,4 @@
-package little.princess.sys.manager.common;
+package little.princess.sys.common.all;
 
 /**
  * 静态常量名称

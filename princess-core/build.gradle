@@ -1,14 +1,15 @@
 group 'little.princess.sys'
-version '1.0'
 
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
+apply plugin: 'application'
+archivesBaseName= 'princess-core'
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(':princess-common')
+    //token
+    compile 'io.jsonwebtoken:jjwt:0.6.0'
+    //mybatis
+    compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.3.2'
+    //数据源
+    compile 'com.alibaba:druid-spring-boot-starter:1.1.10'
+    compile 'mysql:mysql-connector-java:6.0.6'
 }
