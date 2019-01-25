@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d238d1-d245-4d4c-8e16-f3623639a9c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/exception/BaseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/exception/ExceptionCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/util/DateFormatUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/common/BaseParamEntity.java" afterPath="$PROJECT_DIR$/princess-common/src/main/java/little/princess/sys/common/all/BaseParamEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/dto/LoginUserToken.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/dto/LoginUserToken.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CMenu.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/entity/CMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CRole.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/entity/CRole.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CRoleMenu.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/entity/CRoleMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity/CUser.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/entity/CUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/init/MenuUtils.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/init/MenuUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CMenuMapper.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/mapper/CMenuMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CRoleMapper.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/mapper/CRoleMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CUserMapper.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core/mapper/CUserMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/CMenuService.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/CMenuService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/CRoleService.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/CRoleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/CUserService.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/CUserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/impl/CMenuServiceImpl.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/impl/CMenuServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/impl/CRoleServiceImpl.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/impl/CRoleServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/impl/CUserServiceImpl.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/impl/CUserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/page/Page.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/web/page/Page.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/page/PageVo.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/web/page/PageVo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/token/IgnoreToken.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/web/token/IgnoreToken.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/token/Token.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/web/token/Token.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/token/TokenUtil.java" afterPath="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/web/token/TokenUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CMenuMapper.xml" afterPath="$PROJECT_DIR$/princess-core/src/main/resources/mapper/CMenuMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CRoleMapper.xml" afterPath="$PROJECT_DIR$/princess-core/src/main/resources/mapper/CRoleMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CUserMapper.xml" afterPath="$PROJECT_DIR$/princess-core/src/main/resources/mapper/CUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/princess-core/princess-core_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/princess-core/princess-core_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/princess-core/princess-core_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/princess-core/princess-core_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/princess-manager/princess-manager_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-core/build.gradle" afterPath="$PROJECT_DIR$/princess-core/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/princess-manager/build.gradle" afterPath="$PROJECT_DIR$/princess-manager/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/princess-clientsys/src/main/java/little/princess/sys/clientsys/ClientSysApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -117,14 +79,47 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ClientSysApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/princess-clientsys/src/main/java/little/princess/sys/clientsys/ClientSysApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/princess-clientsys/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="mybatis.config.xml" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1740,7 +1735,6 @@
         <option value="$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CRoleMapper.xml" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/impl/CUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/init/MenuUtils.java" />
-        <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/web/mvc/WebMvcConfigAdapter.java" />
         <option value="$PROJECT_DIR$/princess-manager/src/main/resources/mapper/CUserMapper.xml" />
@@ -1755,6 +1749,8 @@
         <option value="$PROJECT_DIR$/princess-common/src/main/java/little/princess/sys/common/all/BaseParamEntity.java" />
         <option value="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/service/impl/CUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/princess-core/build.gradle" />
+        <option value="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java" />
+        <option value="$PROJECT_DIR$/princess-clientsys/src/main/java/little/princess/sys/clientsys/ClientSysApplication.java" />
       </list>
     </option>
   </component>
@@ -1794,6 +1790,150 @@
               <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
               <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+              <item name="princess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+              <item name="princess" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-clientsys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+              <item name="princess" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="clientsys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+              <item name="princess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+              <item name="princess" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="little" type="462c0819:PsiDirectoryNode" />
+              <item name="princess" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="princess-sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="princess-sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="princess-manager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1820,11 +1960,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/princess-config/src/main/java" />
+      <recent name="$PROJECT_DIR$/princess-community/src/main/java" />
       <recent name="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/web" />
       <recent name="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager" />
       <recent name="$PROJECT_DIR$/princess-core/src/main/java/little/princess/sys/manager/core" />
-      <recent name="$PROJECT_DIR$/princess-core/src/main/resources" />
-      <recent name="$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="little.princess.sys.common.all" />
@@ -1939,15 +2079,16 @@
       <workItem from="1547112131175" duration="1396000" />
       <workItem from="1548223341002" duration="1810000" />
       <workItem from="1548226785747" duration="175000" />
-      <workItem from="1548227214772" duration="16068000" />
+      <workItem from="1548227214772" duration="16565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44214000" />
+    <option name="totallyTimeSpent" value="44711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1960,7 +2101,7 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4145343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30402932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30402932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2050,13 +2191,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/core/mapper/CRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/service/CRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -2126,14 +2260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2216,14 +2342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/princess-clientsys/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2453,6 +2571,32 @@
         <state relative-caret-position="105">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princess-clientsys/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princess-manager/src/main/java/little/princess/sys/manager/ManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princess-clientsys/src/main/java/little/princess/sys/clientsys/ClientSysApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
